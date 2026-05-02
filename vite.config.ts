@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/chronos-vision/',  // 👈 AGREGA ESTA LÍNEA
+    base: '/chronos-vision/', 
 
     plugins: [react(), tailwindcss()],
     define: {
